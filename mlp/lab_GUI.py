@@ -1,15 +1,17 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 from __future__ import print_function
-import os, sys
-import io
-import subprocess
+
 import PIL.Image
-from Tkinter import *
-import IMG
-import MLP
-import pickle, random
-import matplotlib.pyplot as plt
+import io
+import pickle
+import sys
+from tkinter import *
+
+
+from mlp import MLP, IMG
+
+from absl import flags
 
 
 class App(Frame):
